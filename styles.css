@@ -58,7 +58,7 @@ a {
 .site-header-inner {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-end;
   gap: 20px;
   width: min(1040px, calc(100% - 32px));
   margin: 0 auto;
@@ -460,12 +460,11 @@ p {
 
 @media (max-width: 900px) {
   .site-header-inner {
-    align-items: flex-start;
-    flex-direction: column;
+    justify-content: flex-end;
   }
 
   .site-links {
-    justify-content: flex-start;
+    justify-content: flex-end;
   }
 
   .home-hero {
