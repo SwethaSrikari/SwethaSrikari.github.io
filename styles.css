@@ -310,7 +310,7 @@ p {
   gap: 18px;
   width: min(1120px, calc(100% - 32px));
   margin: 0 auto;
-  padding: 28px 0 84px;
+  padding: 28px 0;
   border-top: 1px solid var(--line);
 }
 
@@ -325,7 +325,16 @@ p {
   gap: 10px;
   width: min(1120px, calc(100% - 32px));
   margin: 0 auto;
-  padding: 0 0 84px;
+  padding: 24px 0 84px;
+  border-top: 1px solid var(--line);
+}
+
+.home-projects h2 {
+  margin: 0 0 2px;
+  color: var(--ink);
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.25;
 }
 
 .home-projects a {
