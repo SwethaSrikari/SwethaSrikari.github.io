@@ -320,6 +320,25 @@ p {
   color: var(--muted);
 }
 
+.home-projects {
+  display: grid;
+  gap: 10px;
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 0 0 84px;
+}
+
+.home-projects a {
+  display: block;
+  color: var(--body-text);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.home-projects a:hover {
+  color: var(--ink);
+}
+
 .photo-page-hero,
 .page-hero {
   width: min(980px, calc(100% - 32px));
